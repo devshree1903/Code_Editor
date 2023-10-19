@@ -1,0 +1,51 @@
+/* Basic Code Editor Styles */
+.code-editor {
+    border: 3px solid #114f2d;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;  
+    
+}
+
+.code-toolbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: tomato;
+    color: rgb(10, 3, 3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    /* background-color: tomato; */
+    cursor: not-allowed;
+}
+
+#code {
+    background-color: lightgray;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    white-space: pre-wrap;
+    padding: 10px;
+    font-size: 25px;
+
+
+    /* font-size: 50px; */
+    background: linear-gradient(to left,
+            violet,
+            indigo,
+            blue,
+            green,
+            red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
